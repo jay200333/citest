@@ -48,3 +48,15 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+fun abc(
+    a: Int,
+    b: Int,
+): Int = a - b
+
+fun abdc(
+    a: Int,
+    b: Int,
+): Int = a - b
+
+fun asdsgadf(asd: Int): Int = asd
