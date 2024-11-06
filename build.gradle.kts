@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.kotlin.android) apply false
     alias(libs.plugins.kotlin.compose) apply false
     id("org.jlleitschuh.gradle.ktlint") version "12.1.1"
+    alias(libs.plugins.google.gms.google.services) apply false
 }
 
 subprojects {
