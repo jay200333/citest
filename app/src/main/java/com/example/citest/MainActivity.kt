@@ -50,3 +50,5 @@ fun GreetingPreview() {
 }
 
 fun abc(a:  Int, b:  Int):   Int =    a - b
+
+fun abdc(a:  Int, b:  Int):   Int =    a - b
