@@ -59,5 +59,4 @@ fun abdc(
     b: Int,
 ): Int = a - b
 
-
-fun asdsadf(asd:     Int): Int = asd
+fun asdsadf(asd: Int): Int = asd

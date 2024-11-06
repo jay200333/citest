@@ -9,6 +9,10 @@ jobs:
         uses: actions/checkout@master
         with:
           fetch-depth: 1
+      - name: Load Google Service file
+        env:
+          DATA: ${{ secrets.GOOGLE_SERVICES_JSON }}
+        run: echo $DATA | base64 -di > app/google-services.json
       - name: ktlint
         uses: ScaCap/action-ktlint@master
         with:
