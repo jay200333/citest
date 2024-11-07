@@ -1,6 +1,6 @@
 name: reviewdog
 on:
-  pull_request_target:  # 이 부분을 변경
+  pull_request_target:
     branches: [ "main", "dev" ]
 
 jobs:
